@@ -18,6 +18,7 @@ module.exports = {
 				darkBlue: 'hsl(235, 46%, 20%)',
 				desaturatedBlue: 'hsl(235, 45%, 61%)',
 				paleBlue: 'hsl(236, 100%, 87%)',
+				activeBlue: 'hsl(235.8,40.6%,34.3%)',
 			},
 		},
 	},
