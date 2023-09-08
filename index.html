@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./dist/style.css">
 </head>
-<body>
-    <h1 class="text-3xl">Template</h1>
+
+<body class=" flex justify-center items-center min-h-screen text-lg bg-veryDarkBlue">
+
+    <div class="wrapper w-[375px] space-y-4">
+
+        <div class="card bg-darkBlue rounded-xl font-light">
+            <div class="flex items-center p-8 bg-blue rounded-xl">
+                <img src="./dist/img/image-jeremy.png" alt="Jeremy" class="mr-6 w-20 h-20 border-4 rounded-full">
+                <div>
+                    <p class="text-paleBlue text-base">Report for</p>
+                    <p class="text-white text-2xl">Jeremy Robson</p>
+                </div>
+            </div>
+
+            <div class="flex justify-between py-6 px-8 text-desaturatedBlue ">
+                <button class="hover:text-white transition-colors">Daily</button>
+                <button class="hover:text-white transition-colors">Weekly</button>
+                <button class="hover:text-white transition-colors">Mothly</button>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
